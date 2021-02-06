@@ -1,0 +1,51 @@
+
+.forC{
+top: 11vh;
+width: 40vw;
+height: 60vh;
+position: relative;
+margin: auto;
+display: flex;
+justify-content: left;
+align-items: center;
+border: none;
+border-radius: 5px;
+box-shadow: 0 0 5rem black, inset 0 0 3rem #2626268a;
+background: rgb(255, 255, 255);
+padding: 2rem;
+padding-top: 7rem;
+}
+
+h1.question{
+
+    position: absolute;
+    top: 0rem;
+    margin-left: 0;
+}
+h1{
+    margin-left: 1rem;
+}
+p{
+    margin-left: 3rem;
+}
+
+input{ 
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    cursor: text;
+    line-height: 1rem;
+    
+}
+#Cname{
+
+    top: 5rem;
+}
+#cText{
+    width:auto ;
+}
+#submitContact{
+    cursor: pointer;
+}
